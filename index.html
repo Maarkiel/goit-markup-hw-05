@@ -58,7 +58,7 @@
       <section class="central section">
         <div class="central__content">
           <h1 class="central__title">Efektywne rozwiązania dla waszego biznesu</h1>
-          <button type="button" class="central__btn">Zamów usługę</button>
+          <button type="button" class="central__btn" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <!-- END CENTRAL -->
@@ -128,6 +128,7 @@
               alt="Computer"
               title="Computer"
             />
+            <p class="offer__desc">Aplikacje komputerowe</p>
           </li>
           <li class="offer__item">
             <img
@@ -137,6 +138,7 @@
               alt="Smartphone"
               title="Smartphone"
             />
+            <p class="offer__desc">Aplikacje mobilne</p>
           </li>
           <li class="offer__item">
             <img
@@ -146,6 +148,7 @@
               alt="Tablet"
               title="Tablet"
             />
+            <p class="offer__desc">Rozwiązania graficzne</p>
           </li>
         </ul>
       </section>
@@ -351,5 +354,11 @@
         </div>
       </div>  
     </footer>
+    <button data-modal-open>open</button>
+
+    <div class="modal is-hidden" data-modal>
+      <button data-modal-close>X</button>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
