@@ -577,8 +577,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social__icon:hover,
-.footer-social-icon:focus,
-.footer-social-icon:active {
+.footer-social__icon:focus,
+.footer-social__icon:active {
 background-color: var(--brand-color-blue);
 }
 
