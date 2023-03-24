@@ -150,6 +150,9 @@ fill: var(--brand-color-grey);
 text-decoration: none;
 font-size: 14px;
 font-weight: 500;
+transition-property: color, fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact__link:hover,
